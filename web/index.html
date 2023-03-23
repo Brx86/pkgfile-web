@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archlinux</title>
+  <link rel="stylesheet" href="css/pico.min.css" />
+  <style>
+    .cell {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body style="font-family: monospace;">
+  <div style="margin-top: 30px;">
+    <h3 style="text-align: center;">Pkgfile在线搜索</h3>
+  </div>
+  <main class="container">
+    <div class="grid" style="display: flex;">
+      <input type="text" id="fileName" placeholder="如: conda" />
+      <button id="search" style="margin-left: 10px;width: 30%;">搜索</button>
+    </div>
+    <small>点击包名右上角即可在官方页面查看详细信息</small>
+    <div id="tableTarget"></div>
+  </main>
+  <script src="js/search.js"></script>
+</body>
+
+
+</html>
