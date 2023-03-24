@@ -36,16 +36,3 @@ inputKeyword.addEventListener('keydown', (event) => {
         buttonSearch.click();
     }
 });
-
-
-{
-    "listen": ":10492",
-    "acme": {
-      "domains": [
-        "f2.aya1.pro"
-      ],
-      "email": "youra@email.com"
-    },
-    "obfs": "lahuk8yakXvMjDqEXBwY"
-  }
-  ip6tables -t nat -A PREROUTING -i eth0 -p udp --dport 50000:60000 -j DNAT --to-destination :10492
