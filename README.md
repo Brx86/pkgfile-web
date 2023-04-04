@@ -5,7 +5,7 @@ pkgfile在线查询网站
 
 ## 示例站点：
 
-https://pkgfile.ay1.us/
+https://pkg.aya1.pro
 
 
 ## 自行部署：
